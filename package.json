@@ -1,6 +1,6 @@
 {
 	"name": "@caoer/file-type",
-	"version": "18.0.1",
+	"version": "18.0.2",
 	"description": "Detect the file type of a Buffer/Uint8Array/ArrayBuffer",
 	"license": "MIT",
 	"repository": "sindresorhus/file-type",
@@ -18,8 +18,8 @@
 		"./core": "./core.js"
 	},
 	"types": "lib/index.d.ts",
-  "main": "lib/index.js",
-  "engines": {
+	"main": "lib/index.js",
+	"engines": {
 		"node": ">=14.16"
 	},
 	"scripts": {

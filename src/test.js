@@ -1,8 +1,7 @@
 import process from 'node:process';
-import {Buffer} from 'node:buffer';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import fs from 'node:fs';
+import * as fs from 'fs';
 import stream from 'node:stream';
 import test from 'ava';
 import {readableNoopStream} from 'noop-stream';
@@ -14,7 +13,7 @@ import {
 	fileTypeStream,
 	supportedExtensions,
 	supportedMimeTypes,
-} from './index.js';
+} from './index.d.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 

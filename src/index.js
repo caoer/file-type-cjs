@@ -1,5 +1,5 @@
-import * as strtok3 from 'strtok3';
-import {fileTypeFromTokenizer} from './core.js';
+import * as strtok3 from '@caoer/strtok3';
+import {fileTypeFromTokenizer} from './core.d.ts';
 
 export async function fileTypeFromFile(path) {
 	const tokenizer = await strtok3.fromFile(path);
@@ -10,4 +10,4 @@ export async function fileTypeFromFile(path) {
 	}
 }
 
-export * from './core.js';
+export * from './core.d.ts';

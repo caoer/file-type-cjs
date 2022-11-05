@@ -1,6 +1,5 @@
-import {Buffer} from 'node:buffer';
 import {ReadableWebToNodeStream} from 'readable-web-to-node-stream';
-import {fileTypeFromBuffer, fileTypeFromStream as coreFileTypeFromStream} from './core.js';
+import {fileTypeFromBuffer, fileTypeFromStream as coreFileTypeFromStream} from './core.d.ts';
 
 /**
 Convert Blobs to ArrayBuffer.
@@ -48,4 +47,4 @@ export {
 	fileTypeFromTokenizer,
 	fileTypeFromBuffer,
 	fileTypeStream,
-} from './core.js';
+} from './core.d.ts';

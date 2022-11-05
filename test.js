@@ -13,7 +13,7 @@ import {
 	fileTypeStream,
 	supportedExtensions,
 	supportedMimeTypes,
-} from './index.d.ts';
+} from './src';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 

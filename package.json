@@ -10,13 +10,6 @@
 		"email": "sindresorhus@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
-	"exports": {
-		".": {
-			"node": "./index.js",
-			"default": "./browser.js"
-		},
-		"./core": "./core.js"
-	},
 	"types": "lib/index.d.ts",
 	"main": "lib/index.js",
 	"engines": {
@@ -24,7 +17,7 @@
 	},
 	"scripts": {
 		"test": "xo && ava && tsd",
-		"build": "babel src -d lib"
+		"build": "babel src -d lib -D && tsc --build"
 	},
 	"files": [
 		"lib/index.js",
@@ -198,9 +191,9 @@
 		"vcf"
 	],
 	"dependencies": {
-		"readable-web-to-node-stream": "^2.0.0",
 		"@caoer/strtok3": "^7.0.2",
-		"@caoer/token-types": "^5.0.2"
+		"@caoer/token-types": "^5.0.2",
+		"readable-web-to-node-stream": "^2.0.0"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.19.3",
@@ -213,6 +206,7 @@
 		"commonmark": "^0.30.0",
 		"noop-stream": "^1.0.0",
 		"tsd": "^0.22.0",
+		"typescript": "^4.8.4",
 		"webpack": "^5.74.0",
 		"xo": "^0.51.0"
 	},

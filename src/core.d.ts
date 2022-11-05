@@ -1,5 +1,4 @@
-import {Readable as ReadableStream} from 'node:stream';
-import {ITokenizer} from 'strtok3';
+import {ITokenizer} from '@caoer/strtok3';
 
 export type FileExtension =
 	| 'jpg'

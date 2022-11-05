@@ -1,4 +1,3 @@
-import {Readable as ReadableStream} from 'node:stream';
 import {FileTypeResult} from './core.js';
 
 /**

@@ -1,6 +1,6 @@
 {
 	"name": "@caoer/file-type",
-	"version": "18.0.0",
+	"version": "18.0.1",
 	"description": "Detect the file type of a Buffer/Uint8Array/ArrayBuffer",
 	"license": "MIT",
 	"repository": "sindresorhus/file-type",
@@ -17,23 +17,23 @@
 		},
 		"./core": "./core.js"
 	},
-  "types": "lib/index.d.ts",
-  "engines": {
+	"types": "lib/index.d.ts",
+	"engines": {
 		"node": ">=14.16"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd",
-	    "build": "babel src -d lib"
+		"build": "babel src -d lib"
 	},
 	"files": [
-	  "lib/index.js",
-	  "lib/index.d.ts",
-	  "lib/browser.js",
-	  "lib/browser.d.ts",
-	  "lib/core.js",
-	  "lib/core.d.ts",
-	  "lib/supported.js",
-	  "lib/util.js"
+		"lib/index.js",
+		"lib/index.d.ts",
+		"lib/browser.js",
+		"lib/browser.d.ts",
+		"lib/core.js",
+		"lib/core.d.ts",
+		"lib/supported.js",
+		"lib/util.js"
 	],
 	"keywords": [
 		"mime",

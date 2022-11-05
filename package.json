@@ -17,7 +17,8 @@
 		},
 		"./core": "./core.js"
 	},
-	"engines": {
+  "types": "lib/index.d.ts",
+  "engines": {
 		"node": ">=14.16"
 	},
 	"scripts": {
